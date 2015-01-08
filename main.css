@@ -1,0 +1,35 @@
+header{
+	background-image: url("assets/header.jpg");
+	width: 1300px;
+	height: 523px;
+	
+}
+
+.logo{
+	vertical-align: middle;
+	padding-left: 100px;
+	padding-top: 10px;
+}
+.header-text{
+	float: right;
+	padding-top: 10px;
+	padding-right: 100px;
+
+}
+.header-text > span{
+	padding-right: 10px;
+	padding-top: 5px;
+	float: left;
+}
+.title-text{
+	text-align: center;
+}
+.title-text > h1{
+	color: white;
+	padding-top: 100px;
+	margin-bottom: 0px;
+	font-size: 600%;
+}
+.title-text > span{
+	color: white;
+}
