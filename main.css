@@ -117,14 +117,20 @@ h2{
 /* This is the right box of the body */
 
 .boxright{
-	float: left;
 	width: 490px;
-	display: block;
+	margin-top: 5%;
+	display: inline-block;
+
 }
-.anne{
-	text-transform: uppercase;
-	margin-left: 50px;
+.anne-big{
+	padding-left: 25%;
+	padding-right: 25%;
+	
 }
+.paddle{
+	padding-left: 75px;
+}
+
 .bot-banner{
 	text-transform: uppercase;
 	clear: both;
