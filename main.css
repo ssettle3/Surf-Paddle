@@ -86,6 +86,8 @@ header{
 }	
 .boxleft p{
 	line-height: 20px;
+	font-size: 90%;
+	padding-top: 10px;
 }
 
 .anne-small{
@@ -183,16 +185,21 @@ h2{
 	vertical-align: middle;
 	color: black;
 }
+.bot-banner h1{
+font-family: 'Oswald';
+font-size: 300%;
+}
 
 /* This is the footer stuff */
 
 .bot-pics{
-	background-color: navy;
+	background-color: #1974BA;
 	width: 1300px;
+	margin-bottom: 0%;
 }
 .bot-pics img{
 	margin-left: -4px;
-	opacity: 0.6;
+	opacity: 0.3;
 }
 .bot-pics img:hover{
 	opacity: 1;
@@ -200,21 +207,25 @@ h2{
 
 .v-bottom{
 	width: 1300px;
-	background-color: navy;
+	background-color: #083452;
 	height: 70px;
 	vertical-align: middle;
 	color: lightgray;
 }
 .ironyard{
 	display: inline-block;
+	vertical-align: middle;
 }
 .iy-text{
 	display: inline-block;
+	color: #A3B3BF;
+	font-family:;
 }
 .foot-nav-left{
 	width: 500px;
 	float: left;
-	display: inline-block;
+	padding-top: 15px;
+	padding-left: 50px;
 }
 .foot-nav-right{
 	float: right;
