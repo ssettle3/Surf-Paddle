@@ -1,4 +1,6 @@
-
+.container{
+	width: 100%;
+}
 
 
 
@@ -326,7 +328,7 @@ margin-bottom: 20px;
 	opacity: 1;
 	cursor: pointer;
 }
-.bot-pics span:hover{
+.bot-pics img span:hover{
 	color: white;
 }
 .v-bottom{
@@ -347,20 +349,20 @@ margin-bottom: 20px;
 	color: #A3B3BF;
 	font-size: 13px;
 	padding-left: 10px;
-	padding-top: 2px;
+	padding-top: 5px;
 }
 .foot-nav-left{
 	width: 500px;
 	float: left;
-	padding-top: 35px;
+	padding-top: 32px;
 	padding-left: 165px;
 	font-family: 'Open Sans', sans-serif;
 }
 .foot-nav-right{
 	float: right;
 	display: inline-block;	
-	padding-top: 45px;
-	padding-right: 155px;
+	padding-top: 40px;
+	padding-right: 160px;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
 }
