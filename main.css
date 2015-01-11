@@ -1,6 +1,13 @@
+.container{
+	width: 1440px;
+	margin-left: 70px;
+}
+
+
+
 
 /* This is the header 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 */
 
 header{
@@ -85,9 +92,10 @@ header{
 	display: block;
 }	
 .boxleft p{
-	line-height: 20px;
+	line-height: 25px;
 	font-size: 90%;
-	padding-top: 10px;
+	padding-top: 25px;
+	color: #5E686F;
 }
 
 .anne-small{
@@ -98,6 +106,7 @@ h2{
 	border-left: 1px solid black;
 	padding-left: 10px;
 	font-size: 28px;
+	color: #106DB3;
 }
 .bottom-nav{
 }
@@ -138,19 +147,21 @@ h2{
 	display: inline-block;
 
 }
-.anne-big{
-	padding-left: 25%;
-	padding-right: 25%;
+.anne-big{	
+	padding-right: 23%;
+	padding-top: 10px;
 	text-align: center;
 }
 
 .anne-big div{
 	font-family: "Open Sans";
 	text-transform: uppercase;
+	padding-top: 7px;
 	color: navy;
 }
 .anne-big .twit{
 	color: gray;
+	font-size: 13px;
 	font-family: "Open Sans";
 }
 .anne-big .face{
@@ -158,23 +169,53 @@ h2{
 	font-family: "Open Sans";
 	border-left: 1px solid gray;
 	padding-left: 5px;
+	font-size: 13px;
 }
 .anne-big .inst{
 	color: gray;
 	font-family: "Open Sans";
 	border-left: 1px solid gray;
 	padding-left: 5px;
+	font-size: 13px;	
 }
 .anne-big .anne{
 	padding-right: 
 }
 .paddle{
-	padding-left: 30px;
-	padding-top: 40px;
+	padding-left: 25px;
+	padding-top: 26.5px;
 }
 
 .paddle .aboutpaddle div{
-	padding-left: 125px;
+	padding-left: 220px;
+	color: lightgray;
+	text-decoration: underline;
+	font-size: 13px;
+	padding-top: 5px;
+}
+.sb-head h1{
+	font-family: 'Oswald';
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #106DB3;	
+	letter-spacing: -.5px;
+	word-spacing: 0px;
+	padding-top: 35px;
+	padding-left: 27px;
+	margin-bottom: 5px;
+}
+.sb-head{
+	color: lightgray;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+.sb-head p{
+	width: 300px;
+	padding-left: 20px;
+	font-size: 13px;
+	line-height: 25px;
+	margin-top: 0px;
+
 }
 .bot-banner{
 	text-transform: uppercase;
@@ -195,22 +236,77 @@ font-size: 300%;
 .bot-pics{
 	background-color: #1974BA;
 	width: 1300px;
-	margin-bottom: 0%;
+	margin-bottom: -5px;
+	font-family: 'Oswald', sans-serif;
+}
+.bot-pics h2{
+	border: none;
 }
 .bot-pics img{
-	margin-left: -4px;
 	opacity: 0.3;
+	float: left;
+}
+.bot-pics .dude{
+	margin-left: 0px;
+	position: relative;
+	display: inline-block;
+}
+.dude h2{
+	position: absolute;
+	margin-top: 280px;
+	color: #083452;
+	margin-bottom: 0px;
+	display: block;
+}
+.beer{
+	display: inline-block;
+	position: relative;
+	margin-left: -1.5px;
+}
+.beer h2{
+	position: absolute;
+	margin-top: 280px;
+	color: #083452;
+	margin-bottom: 0px;
+}
+.zach{
+	display: inline-block;
+	position: relative;
+	margin-left: -1.5px;
+}
+.zach h2{
+	position: absolute;
+	margin-top: 250px;
+	color: #083452;
+	width: 250px;
+	line-height: 120%;
+}
+.liq{
+	display: inline-block;
+	position: relative;
+	margin-left: -1.5px;
+}
+.liq h2{
+	position: absolute;
+	margin-top: 280px;
+	color: #083452;
+	margin-bottom: 0px;
 }
 .bot-pics img:hover{
 	opacity: 1;
+	cursor: pointer;
 }
-
+.bot-pics span:hover{
+	color: white;
+}
 .v-bottom{
 	width: 1300px;
 	background-color: #083452;
-	height: 70px;
+	height: 100px;
 	vertical-align: middle;
 	color: lightgray;
+	display: block;
+	clear: both;
 }
 .ironyard{
 	display: inline-block;
@@ -224,14 +320,14 @@ font-size: 300%;
 .foot-nav-left{
 	width: 500px;
 	float: left;
-	padding-top: 15px;
-	padding-left: 50px;
+	padding-top: 35px;
+	padding-left: 165px;
 }
 .foot-nav-right{
 	float: right;
 	display: inline-block;	
-	padding-top: 20px;
-	padding-right: 100px;
+	padding-top: 45px;
+	padding-right: 155px;
 }
 .nav1{
 	border-right: 1px solid lightgray;	
