@@ -7,3 +7,404 @@
 
 
 //Mixins
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+/* This is the header 
+^^^^^^^^^^^^^^^^^^^
+*/
+
+header{
+	background-image: url("assets/header.jpg");
+	width: 1300px;
+	height: 523px;
+	font-family: 'Oswald',sans-serif;
+	text-transform: uppercase;
+}
+
+.topleft{
+	width: 500px;	
+	display: inline-block;
+	padding-top: 10px;
+	font-family: 'Open Sans';
+}
+.logo{
+	padding-left: 145px;
+	padding-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logotext{
+	font-family: 'Open Sans';
+	float: right;
+
+}
+.header-text{
+	float: right;	
+	padding-right: 168px;
+	font-size: 18px;
+	padding-top: 17px;
+}
+.header-text img{
+	vertical-align: middle; 
+	padding-left: 1px;
+}
+.header-text span{
+	padding-left: 13px;
+}
+.header-text a{
+	color: black;
+	text-decoration: none;
+}
+.title-text{
+	text-align: center;
+	font-family: 'Open Sans'
+}
+
+.title-text > h1{
+	color: white;
+	padding-top: 157px;
+	margin-bottom: 0px;
+	font-size: 600%;
+	margin-top: 0;
+	letter-spacing: 0px;
+	line-height: 100%;
+	font-family: 'Open Sans';
+}
+
+.title-text > span{
+	color: black;
+	text-transform: none;
+	font-size: 15px
+}
+
+/* This is the left box of the body */
+
+.boxleft{
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	clear: both;
+	width: 650px;
+	padding-left: 160px;
+	padding-bottom: 68px;
+}
+.boxleft h1{
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: 'Oswald', sans-serif;
+	line-height: 115%;
+	letter-spacing: -.1px;
+	padding-top: 22px;
+	margin-bottom: 0px;
+	display: block;
+}	
+.an-txt{
+	font-size: 13px; 
+	padding-top: 10px;
+	padding-left: 8px;
+}
+.an-txt a:nth-child(even){
+	color: #106DB3;
+}
+.an-txt a:last-child{
+	color: lightgray;
+	text-decoration: underline;
+}
+.boxleft p{
+	line-height: 25px;
+	font-size: 90%;
+	padding-top: 20px;
+	color: #5E686F;
+}
+.anne-small{
+	width: 3.5%;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+h2{
+	text-transform: uppercase;
+	border-left: 2px solid lightgray;
+	padding-left: 15px;
+	font-size: 28px;
+	margin-left: 9px;
+	color: #106DB3;
+	letter-spacing: -2px;
+	padding-top: 4px;
+}
+.bottom-nav{
+	margin-top: -11px;
+	padding-left: 6px;
+	padding-top: 12px;
+	font-size: 13px;
+	color: white;	
+}
+
+.bottom-nav .comment{
+	background-color: lightgray;
+	float: left;
+	display: inline-block;
+	margin-right: 11px;
+}
+.bottom-nav .comm{
+	background-color: gray;
+	vertical-align: middle;
+	padding: 8px;
+}
+.bottom-nav span{
+	padding-right: 12px;
+	padding-left: 12px;
+}
+.bottom-nav a{
+	text-decoration: none;
+	color: white;
+}
+.bottom-nav .upload{
+	background-color: lightgray;
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+}
+.bottom-nav .upld{
+	background-color: gray;
+	vertical-align: middle;
+	padding: 9px;
+}
+
+.bottom-nav .share{
+	background-color: lightblue;
+	display: inline-block;
+}
+.bottom-nav .shre{
+	padding: 9px;
+	background-color: navy;
+	vertical-align: middle;
+}
+/* This is the right box of the body */
+
+.boxright{
+	width: 490px;
+	margin-top: 5%;
+	display: inline-block;
+
+}
+.anne-big{	
+	padding-right: 23%;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.anne-big div{
+	font-family: "Open Sans";
+	text-transform: uppercase;
+	padding-top: 7px;
+	color: #106DB3;
+}
+.anne-big a{
+	color: gray;
+	text-decoration: none;
+}
+.anne-big .twit{
+	color: gray;
+	font-size: 13px;
+	font-family: "Open Sans";
+}
+.anne-big .face{
+	color: gray;
+	font-family: "Open Sans";
+	border-left: 1px solid gray;
+	padding-left: 5px;
+	font-size: 13px;
+}
+.anne-big .inst{
+	color: gray;
+	font-family: "Open Sans";
+	border-left: 1px solid gray;
+	padding-left: 5px;
+	font-size: 13px;	
+}
+.paddle{
+	padding-left: 25px;
+	padding-top: 26.5px;
+}
+
+.paddle .aboutpaddle div{
+	padding-left: 220px;
+	color: lightgray;
+	text-decoration: underline;
+	font-size: 13px;
+	padding-top: 5px;
+}
+.aboutpaddle a{
+	color: lightgray;
+}
+.sb-head h1{
+	font-family: 'Oswald';
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #106DB3;	
+	letter-spacing: -.5px;
+	word-spacing: 0px;
+	padding-top: 35px;
+	padding-left: 27px;
+	margin-bottom: 5px;
+}
+.sb-head{
+	color: lightgray;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+.sb-head p{
+	width: 300px;
+	padding-left: 20px;
+	font-size: 13px;
+	line-height: 25px;
+	margin-top: 0px;
+
+}
+.bot-banner{
+	width: 1300px;
+	text-transform: uppercase;
+	clear: both;
+	text-align: center;
+	border-top: 1px solid black;
+	font-size: 20px;
+	vertical-align: middle;
+	color: black;
+	padding-bottom: 10px;
+}
+.bot-banner h1{
+font-family: 'Oswald';
+font-size: 300%;
+margin-top: 25px;
+letter-spacing: .5px;
+margin-bottom: 20px;
+}
+
+/* This is the footer stuff */
+
+.bot-pics{
+	background-color: #1974BA;
+	width: 1300px;
+	margin-bottom: -5px;
+	font-family: 'Oswald', sans-serif;
+}
+.bot-pics h2{
+	border: none;
+}
+.bot-pics img{
+	opacity: 0.3;
+	float: left;
+}
+.bot-pics .dude{
+	margin-left: 0px;
+	position: relative;
+	display: inline-block;
+}
+.dude h2{
+	position: absolute;
+	margin-top: 280px;
+	color: #083452;
+	margin-bottom: 0px;
+}
+.beer{
+	display: inline-block;
+	position: relative;
+	margin-left: -1.5px;
+}
+.beer h2{
+	position: absolute;
+	margin-top: 280px;
+	color: #083452;
+	margin-bottom: 0px;
+}
+.zach{
+	display: inline-block;
+	position: relative;
+	margin-left: -1.5px;
+}
+.zach h2{
+	position: absolute;
+	margin-top: 250px;
+	color: #083452;
+	width: 250px;
+	line-height: 120%;
+}
+.liq{
+	display: inline-block;
+	position: relative;
+	margin-left: -1.5px;
+}
+.liq h2{
+	position: absolute;
+	margin-top: 280px;
+	color: #083452;
+	margin-bottom: 0px;
+}
+.bot-pics img:hover{
+	opacity: 1;
+	cursor: pointer;
+
+}
+.v-bottom{
+	width: 1300px;
+	background-color: #083452;
+	height: 100px;
+	vertical-align: middle;
+	color: lightgray;
+	display: block;
+	clear: both;
+}
+.ironyard{
+	display: inline-block;
+	vertical-align: middle;
+}
+.iy-text{
+	display: inline-block;
+	color: #A3B3BF;
+	font-size: 13px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.foot-nav-left{
+	width: 500px;
+	float: left;
+	padding-top: 32px;
+	padding-left: 165px;
+	font-family: 'Open Sans', sans-serif;
+}
+.foot-nav-right{
+	float: right;
+	display: inline-block;	
+	padding-top: 40px;
+	padding-right: 160px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+.foot-nav-right a{
+	color: lightgray;
+	text-decoration: none;
+}
+.nav1{
+	border-right: 1px solid lightgray;
+	padding-right: 5px;	
+}
+.nav2{
+	border-right: 1px solid lightgray;
+	padding-left: 8px; 
+	padding-right: 6px;
+}
+.nav3{
+	border-right: 1px solid lightgray;
+	padding-left: 7px; 
+	padding-right: 5px;
+}
+.nav5{
+	padding-left: 8px; 
+	padding-right: 5px;
+}
