@@ -1,5 +1,6 @@
 .container{
 	width: 100%;
+	margin: 0 auto;
 }
 
 
@@ -47,7 +48,10 @@ header{
 .header-text span{
 	padding-left: 13px;
 }
-
+.header-text a{
+	color: black;
+	text-decoration: none;
+}
 .title-text{
 	text-align: center;
 	font-family: 'Open Sans'
@@ -146,6 +150,10 @@ h2{
 	padding-right: 12px;
 	padding-left: 12px;
 }
+.bottom-nav a{
+	text-decoration: none;
+	color: white;
+}
 .bottom-nav .upload{
 	background-color: lightgray;
 	float: left;
@@ -187,6 +195,10 @@ h2{
 	padding-top: 7px;
 	color: #106DB3;
 }
+.anne-big a{
+	color: gray;
+	text-decoration: none;
+}
 .anne-big .twit{
 	color: gray;
 	font-size: 13px;
@@ -220,6 +232,9 @@ h2{
 	text-decoration: underline;
 	font-size: 13px;
 	padding-top: 5px;
+}
+.aboutpaddle a{
+	color: lightgray;
 }
 .sb-head h1{
 	font-family: 'Oswald';
@@ -327,9 +342,7 @@ margin-bottom: 20px;
 .bot-pics img:hover{
 	opacity: 1;
 	cursor: pointer;
-}
-.bot-pics img span:hover{
-	color: white;
+
 }
 .v-bottom{
 	width: 1300px;
@@ -365,6 +378,10 @@ margin-bottom: 20px;
 	padding-right: 160px;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
+}
+.foot-nav-right a{
+	color: lightgray;
+	text-decoration: none;
 }
 .nav1{
 	border-right: 1px solid lightgray;
