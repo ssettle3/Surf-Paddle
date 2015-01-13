@@ -276,7 +276,9 @@ h2{
 	font-family: "Oswald", sans-serif;
 }
 .bot-pics h2{
-	border: none;	
+	border: none;
+	position: absolute;
+	color: #083452;
 }
 .bot-pics img{
 	opacity: 0.3;
@@ -288,9 +290,7 @@ h2{
 	display: inline-block;
 }
 .dude h2{
-	position: absolute;
 	margin-top: 280px;
-	color: #083452;
 	margin-bottom: 0px;
 }
 .beer{
@@ -299,9 +299,7 @@ h2{
 	margin-left: -1.5px;
 }
 .beer h2{
-	position: absolute;
 	margin-top: 280px;
-	color: #083452;
 	margin-bottom: 0px;
 }
 .zach{
@@ -310,9 +308,7 @@ h2{
 	margin-left: -1.5px;
 }
 .zach h2{
-	position: absolute;
 	margin-top: 250px;
-	color: #083452;
 	width: 250px;
 	line-height: 120%;
 }
@@ -322,9 +318,7 @@ h2{
 	margin-left: -1.5px;
 }
 .liq h2{
-	position: absolute;
 	margin-top: 280px;
-	color: #083452;
 	margin-bottom: 0px;
 }
 .bot-pics img:hover{
