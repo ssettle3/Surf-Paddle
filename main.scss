@@ -191,7 +191,6 @@ h2{
 /* This is the right box of the body */
 
 .boxright{
-	width: 490px;
 	margin-top: 5%;
 	float: left;
 	display: inline-block;
@@ -199,7 +198,7 @@ h2{
 }
 .anne-big{
 	@include main-text-style (13px, gray);	
-	padding-right: 23%;
+	padding-left: 30px;
 	padding-top: 10px;
 	text-align: center;
 }

@@ -520,7 +520,6 @@ h2 {
 
 /* This is the right box of the body */
 .boxright {
-  width: 490px;
   margin-top: 5%;
   float: left;
   display: inline-block; }
@@ -529,7 +528,7 @@ h2 {
   font-family: "Open Sans";
   font-size: 13px;
   color: gray;
-  padding-right: 23%;
+  padding-left: 30px;
   padding-top: 10px;
   text-align: center; }
 
