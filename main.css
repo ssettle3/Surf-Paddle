@@ -367,24 +367,21 @@ header {
   background-image: url("assets/header.jpg");
   width: 1300px;
   height: 523px;
-  font-family: 'Oswald',sans-serif;
+  font-family: "Oswald";
   text-transform: uppercase; }
 
 .topleft {
-  width: 500px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: black;
   display: inline-block;
-  padding-top: 10px;
-  font-family: 'Open Sans'; }
+  padding-top: 10px; }
 
 .logo {
   padding-left: 145px;
   padding-right: 5px;
   display: inline-block;
   vertical-align: middle; }
-
-.logotext {
-  font-family: 'Open Sans';
-  float: right; }
 
 .header-text {
   float: right;
@@ -408,23 +405,24 @@ header {
   font-family: "Open Sans"; }
 
 .title-text > h1 {
+  font-family: "Open Sans";
+  font-size: 600%;
   color: white;
   padding-top: 157px;
   margin-bottom: 0px;
-  font-size: 600%;
   margin-top: 0;
   letter-spacing: 0px;
-  line-height: 100%;
-  font-family: 'Open Sans'; }
+  line-height: 100%; }
 
 .title-text > span {
+  font-family: "Open Sans";
+  font-size: 15px;
   color: black;
-  text-transform: none;
-  font-size: 15px; }
+  text-transform: none; }
 
 /* This is the left box of the body */
 .boxleft {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans";
   float: left;
   clear: both;
   width: 650px;
@@ -432,9 +430,10 @@ header {
   padding-bottom: 68px; }
 
 .boxleft h1 {
-  text-transform: uppercase;
+  font-family: "Oswald";
   font-size: 60px;
-  font-family: 'Oswald', sans-serif;
+  color: black;
+  text-transform: uppercase;
   line-height: 115%;
   letter-spacing: -.1px;
   padding-top: 22px;
@@ -527,58 +526,45 @@ h2 {
   display: inline-block; }
 
 .anne-big {
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: gray;
   padding-right: 23%;
   padding-top: 10px;
   text-align: center; }
 
 .anne-big div {
-  font-family: "Open Sans";
   text-transform: uppercase;
+  font-size: 16px;
   padding-top: 7px;
   color: #106DB3; }
 
 .anne-big a {
-  color: gray;
   text-decoration: none; }
 
+.anne-big span {
+  border-left: 1px solid gray;
+  padding-left: 5px; }
+
 .anne-big .twit {
-  color: gray;
-  font-size: 13px;
-  font-family: "Open Sans"; }
-
-.anne-big .face {
-  color: gray;
-  font-family: "Open Sans";
-  border-left: 1px solid gray;
-  padding-left: 5px;
-  font-size: 13px; }
-
-.anne-big .inst {
-  color: gray;
-  font-family: "Open Sans";
-  border-left: 1px solid gray;
-  padding-left: 5px;
-  font-size: 13px; }
+  border-left: none; }
 
 .paddle {
   padding-left: 25px;
   padding-top: 26.5px; }
 
-.paddle .aboutpaddle div {
-  padding-left: 220px;
-  color: lightgray;
-  text-decoration: underline;
+.paddle .aboutpaddle div a {
+  font-family: "Open Sans";
   font-size: 13px;
+  color: lightgray;
+  padding-left: 220px;
   padding-top: 5px; }
 
-.aboutpaddle a {
-  color: lightgray; }
-
 .sb-head h1 {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-size: 17px;
-  text-transform: uppercase;
   color: #106DB3;
+  text-transform: uppercase;
   letter-spacing: -.5px;
   word-spacing: 0px;
   padding-top: 35px;
@@ -586,30 +572,29 @@ h2 {
   margin-bottom: 5px; }
 
 .sb-head {
-  color: lightgray;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px; }
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: lightgray; }
 
 .sb-head p {
   width: 300px;
   padding-left: 20px;
-  font-size: 13px;
   line-height: 25px;
   margin-top: 0px; }
 
 .bot-banner {
+  font-family: "Oswald";
+  font-size: 20px;
+  color: black;
   width: 1300px;
   text-transform: uppercase;
   clear: both;
   text-align: center;
   border-top: 1px solid black;
-  font-size: 20px;
   vertical-align: middle;
-  color: black;
   padding-bottom: 10px; }
 
 .bot-banner h1 {
-  font-family: 'Oswald';
   font-size: 300%;
   margin-top: 25px;
   letter-spacing: .5px;
@@ -620,7 +605,7 @@ h2 {
   background-color: #1974BA;
   width: 1300px;
   margin-bottom: -5px;
-  font-family: 'Oswald', sans-serif; }
+  font-family: "Oswald", sans-serif; }
 
 .bot-pics h2 {
   border: none; }
@@ -679,11 +664,12 @@ h2 {
   cursor: pointer; }
 
 .v-bottom {
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: lightgray;
   width: 1300px;
   background-color: #083452;
   height: 100px;
-  vertical-align: middle;
-  color: lightgray;
   display: block;
   clear: both; }
 
@@ -694,7 +680,6 @@ h2 {
 .iy-text {
   display: inline-block;
   color: #A3B3BF;
-  font-size: 13px;
   padding-left: 10px;
   padding-top: 5px; }
 
@@ -702,37 +687,20 @@ h2 {
   width: 500px;
   float: left;
   padding-top: 32px;
-  padding-left: 165px;
-  font-family: 'Open Sans', sans-serif; }
+  padding-left: 165px; }
 
 .foot-nav-right {
   float: right;
   display: inline-block;
+  color: lightgray;
   padding-top: 40px;
-  padding-right: 160px;
-  font-size: 13px;
-  font-family: 'Open Sans', sans-serif; }
+  padding-right: 160px; }
 
 .foot-nav-right a {
   color: lightgray;
-  text-decoration: none; }
-
-.nav1 {
+  text-decoration: none;
   border-right: 1px solid lightgray;
-  padding-right: 5px; }
-
-.nav2 {
-  border-right: 1px solid lightgray;
-  padding-left: 8px;
-  padding-right: 6px; }
-
-.nav3 {
-  border-right: 1px solid lightgray;
-  padding-left: 7px;
-  padding-right: 5px; }
-
-.nav5 {
-  padding-left: 8px;
-  padding-right: 5px; }
+  padding-right: 7px;
+  padding-left: 7px; }
 
 /*# sourceMappingURL=main.css.map */
