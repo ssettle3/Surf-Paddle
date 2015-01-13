@@ -94,7 +94,6 @@ header{
 .boxleft{
 	font-family: $font-2;
 	float: left;
-	clear: both;
 	width: $left-width;
 	padding-left: 160px;
 	padding-bottom: 68px;
@@ -194,6 +193,7 @@ h2{
 .boxright{
 	width: 490px;
 	margin-top: 5%;
+	float: left;
 	display: inline-block;
 
 }

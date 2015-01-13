@@ -424,7 +424,6 @@ header {
 .boxleft {
   font-family: "Open Sans";
   float: left;
-  clear: both;
   width: 650px;
   padding-left: 160px;
   padding-bottom: 68px; }
@@ -523,6 +522,7 @@ h2 {
 .boxright {
   width: 490px;
   margin-top: 5%;
+  float: left;
   display: inline-block; }
 
 .anne-big {
