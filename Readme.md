@@ -1,7 +1,7 @@
 # Surf And Paddle
 
 ## Description
-This project was to take an image of a static website and re-create the content using HTML and CSS in a 'pixel perfect' manner.
+ * This project was to take an image of a static website and re-create the content using HTML and CSS in a 'pixel perfect' manner.
 
 ## How use this
  * Clone my repo
